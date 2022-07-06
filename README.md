@@ -18,7 +18,7 @@ The app allows you to calculate how much and who should return the money within 
 
 
 ## Set up 
-Source to download project 
+Source to download project https://github.com/usmankupalov/Chip-in-calculator.git
 
 To run this project you have to use postman and run on apache tomcat
 
