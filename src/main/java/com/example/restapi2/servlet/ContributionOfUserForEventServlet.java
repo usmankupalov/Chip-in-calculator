@@ -30,7 +30,6 @@ public class ContributionOfUserForEventServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-      //  Long userId = Long.valueOf(request.getParameter("userId"));
         String nameOfEvent = request.getParameter("nameOfEvent");
         Double inputMoneyOfUser = Double.valueOf(request.getParameter("inputMoneyOfUser"));
         String forWhatInputMoneyUser = request.getParameter("forWhatInputMoneyUser");
@@ -108,11 +107,7 @@ public class ContributionOfUserForEventServlet extends HttpServlet {
                     }
                 }
             }
-//            if (debtor.getDebts() == 0) {
-////                lenders.subList(0, 1).clear();
-////            }
         }
-
     }
 
     private void calculateTotalDebtsOfUser() {
